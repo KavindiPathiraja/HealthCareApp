@@ -1,0 +1,174 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/C5"
+    tools:context=".VideoActivity">
+
+    <TextView
+        android:id="@+id/textView38"
+        android:layout_width="209dp"
+        android:layout_height="51dp"
+        android:layout_marginTop="24dp"
+        android:text="@string/di"
+        android:textColor="@color/C4"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/imageView30"
+        android:layout_width="405dp"
+        android:layout_height="516dp"
+        android:layout_marginTop="64dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.6"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageButton17"
+        app:srcCompat="@drawable/d1" />
+
+    <ImageButton
+        android:id="@+id/imageButton17"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="24dp"
+        android:layout_marginTop="24dp"
+        android:backgroundTint="#00FFFFFF"
+        android:contentDescription="@string/Chardiolodist"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/back"
+        tools:ignore="TouchTargetSizeCheck" />
+
+    <ImageButton
+        android:id="@+id/imageButton19"
+        android:layout_width="62dp"
+        android:layout_height="62dp"
+        android:layout_marginStart="48dp"
+        android:backgroundTint="#00FFFFFF"
+        android:contentDescription="@string/Chardiolodist"
+        app:layout_constraintStart_toEndOf="@+id/imageButton18"
+        app:layout_constraintTop_toTopOf="@+id/imageButton18"
+        app:srcCompat="@drawable/call" />
+
+    <ImageButton
+        android:id="@+id/imageButton20"
+        android:layout_width="62dp"
+        android:layout_height="62dp"
+        android:layout_marginStart="48dp"
+        android:backgroundTint="#03FFFFFF"
+        android:contentDescription="@string/Chardiolodist"
+        app:layout_constraintStart_toEndOf="@+id/imageButton19"
+        app:layout_constraintTop_toTopOf="@+id/imageButton18"
+        app:srcCompat="@drawable/mic" />
+
+    <ImageButton
+        android:id="@+id/imageButton18"
+        android:layout_width="62dp"
+        android:layout_height="62dp"
+        android:layout_marginStart="52dp"
+        android:layout_marginTop="32dp"
+        android:backgroundTint="#00FFFFFF"
+        android:contentDescription="@string/Chardiolodist"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView72"
+        app:srcCompat="@drawable/video__3_" />
+
+    <TextView
+        android:id="@+id/textView71"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="104dp"
+        android:layout_marginTop="416dp"
+        android:text="Dr.Hemantha Silva"
+        android:textColor="@color/C4"
+        android:textSize="24sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/imageView30" />
+
+    <TextView
+        android:id="@+id/textView72"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="164dp"
+        android:layout_marginTop="8dp"
+        android:text="00.05.24"
+        android:textColor="@color/C4"
+        android:textSize="20sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView71" />
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/bottomNavigationView"
+        android:layout_width="415dp"
+        android:layout_height="45dp"
+        android:background="@color/C3"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent">
+
+        <ImageButton
+            android:id="@+id/imageButton11"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:backgroundTint="#00FFFFFF"
+            android:contentDescription="@string/articles"
+            app:layout_constraintEnd_toStartOf="@+id/imageButton12"
+            app:layout_constraintHorizontal_bias="0.5"
+            app:layout_constraintStart_toEndOf="@+id/imageButton10"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/medarticles"
+            tools:ignore="MissingConstraints" />
+
+        <ImageButton
+            android:id="@+id/imageButton10"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:backgroundTint="#00FFFFFF"
+            android:contentDescription="@string/shedule"
+            app:layout_constraintEnd_toStartOf="@+id/imageButton11"
+            app:layout_constraintHorizontal_bias="0.5"
+            app:layout_constraintStart_toEndOf="@+id/imageButton9"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/myshedule" />
+
+        <ImageButton
+            android:id="@+id/imageButton12"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:backgroundTint="#00FFFFFF"
+            android:contentDescription="@string/profileicon"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.5"
+            app:layout_constraintStart_toEndOf="@+id/imageButton11"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/profilepic" />
+
+        <ImageButton
+            android:id="@+id/imageButton9"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:backgroundTint="#00FFFFFF"
+            android:contentDescription="@string/homeicon"
+            app:layout_constraintEnd_toStartOf="@+id/imageButton10"
+            app:layout_constraintHorizontal_bias="0.5"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/home" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+    <ImageView
+        android:id="@+id/imageView44"
+        android:layout_width="165dp"
+        android:layout_height="147dp"
+        android:layout_marginStart="240dp"
+        android:layout_marginTop="56dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView38"
+        app:srcCompat="@drawable/p1" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
